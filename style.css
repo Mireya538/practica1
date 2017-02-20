@@ -1,0 +1,24 @@
+/*body,article,aside,footer,nav { border: 1px solid}*/
+header {background-color: lightgray;}
+nav { background-color: grey;}
+a{color:white;}
+article{ float: left; margin-right:35px}
+footer {width: 100%; float: left;}
+p {width: 500px;}
+
+
+@media screen and (max-width: 960px) {
+	img {  height: 80%; }
+	article{ float: none; }
+	p {width: auto;}
+}
+@media screen and (max-width: 768px) {
+	img {  height: 60%; }
+}
+@media screen and (max-width: 550px) {
+	img {  height: 40%; }
+	
+}
+@media screen and (max-width: 320px) {
+	img {  height: 30%; }
+}
